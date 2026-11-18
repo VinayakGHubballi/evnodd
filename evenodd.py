@@ -4,4 +4,6 @@ def evenandodd(num):
     else:
         return "Odd number"
 
-print("Even and Odd result is: ", evenandodd(7))
+if __name__ == "__main__":
+    num = int(input("Enter a number: "))
+    print("Even and Odd result is: ", evenandodd(num))
